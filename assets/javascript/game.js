@@ -2,10 +2,10 @@ let numResets = document.querySelector("#num-resets");
 const resetButton = document.querySelector("#reset-button");
 resetButton.addEventListener("click", function (){
     console.log("reset Button clicked");
-teamOneNumshots.innerHTML = 0
-teamTwoNumshots.innerHTML = 0
-teamOneNumgoals.innerHTML = 0
-teamTwoNumgoals.innerHTML = 0
+teamOneNumshots.innerHTML = team1shots = 0
+teamTwoNumshots.innerHTML = team2shots = 0
+teamOneNumgoals.innerHTML = team1goals = 0
+teamTwoNumgoals.innerHTML = team2goals = 0
 resetValue = Number(numResets.innerHTML) +1;
 numResets.innerHTML = resetValue;
 })
